@@ -74,9 +74,9 @@ public class DZ1 {
         s2 = scnStr.nextLine();
         System.out.println("String + String: " + s1 + " " + s2);
         
-        indent();
         
-        System.out.println("String + Int: " + s1 + " " + nVar1);
+        
+        System.out.println("String s1 + Int nVar1: " + s1 + nVar1);
         
         indent();
         
