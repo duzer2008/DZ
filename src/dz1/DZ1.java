@@ -22,9 +22,21 @@ public class DZ1 {
         
         nVar3 = nVar1 / nVar2;
         System.out.println("Integer result nVar1 / nVar2: nVar3 = " + nVar3);
+        nVar3 = nVar1 + nVar2;
+        System.out.println("Integer result nVar1 + nVar2: nVar3 = " + nVar3);
+        nVar3 = nVar1 - nVar2;
+        System.out.println("Integer result nVar1 - nVar2: nVar3 = " + nVar3);
+        nVar3 = nVar1 * nVar2;
+        System.out.println("Integer result nVar1 * nVar2: nVar3 = " + nVar3);
+        nVar3 = nVar1 % nVar2;
+        System.out.println("Integer result nVar1 % nVar2: nVar3 = " + nVar3);
+        nVar3 = nVar1 = nVar2;
+        System.out.println("Integer result nVar1 = nVar2: nVar3 = " + nVar3);
         
         fVar4 = (float)nVar1 / nVar2;
         System.out.println("Float result nVar1 / nVar2: fVar4 = " + fVar4);
+        fVar4 = nVar1 % nVar2;
+        System.out.println("Float result nVar1 % nVar2: fVar4 = " + fVar4);
         
         indent();
         
@@ -43,6 +55,9 @@ public class DZ1 {
         } else {
             System.out.println("You have entered not float variable: ");
         }
+        
+        fVar4 = fVar5 % fVar6;
+        System.out.println("Float result fVar5 % fVar6: fVar4 = " + fVar4);
         
         indent();
              
