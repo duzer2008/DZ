@@ -72,11 +72,9 @@ public class DZ1 {
         s1 = scnStr.nextLine();
         System.out.print("Enter String s2: ");
         s2 = scnStr.nextLine();
+        System.out.printf("String s1 %s & String s2 %s \n", s1, s2);
         System.out.println("String + String: " + s1 + " " + s2);
-        
-        
-        
-        System.out.println("String s1 + Int nVar1: " + s1 + nVar1);
+        System.out.println("String s1 + Int nVar1 : " + s1 + nVar1);
         
         indent();
         
